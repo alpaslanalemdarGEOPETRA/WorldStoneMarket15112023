@@ -29,7 +29,7 @@ public class DialogContent extends Parent{
 
 
 
-    @FindBy(css="div[class='pname'] a")
+    @FindBy(xpath="//p[@class='name']")
     public  List<WebElement> companyProfilesOnListingPage;
 
 
@@ -166,4 +166,6 @@ public class DialogContent extends Parent{
 
        // silme ıslemı dıalogların ortak noktası olması sebebıyle buraya aldık. Silme islemi yapacagımız her seferınde tekrar tekrar kod yazmayalım dırekt cagıralım dıye aldık.
    }
+
+
 }
