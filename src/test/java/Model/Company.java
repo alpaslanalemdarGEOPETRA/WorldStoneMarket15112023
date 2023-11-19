@@ -37,4 +37,14 @@ public class Company {
     public void setCompanyAddress(String companyAddress) {
         this.companyAddress = companyAddress;
     }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "description='" + description + '\'' +
+               // ", country='" + country + '\'' +
+             //   ", companyType='" + companyType + '\'' +
+                ", companyAddress='" + companyAddress + '\'' +
+                '}';
+    }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Parent {
 
-    public WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(20));
+    public WebDriverWait wait = new WebDriverWait(GWD.getDriver(), Duration.ofSeconds(30));
 
     WebDriver driver = GWD.getDriver();
 
